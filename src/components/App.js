@@ -4,6 +4,7 @@ import { BrowserRouter, Route} from 'react-router-dom';
 import Loader from './loader';
 import Home from './home';
 import Events from './events';
+import Music from './music';
 
 class  App extends React.Component{
 
@@ -13,7 +14,7 @@ class  App extends React.Component{
     return new Promise((resolve) => setTimeout(resolve, milliseconds));
   };
 
-  wait = async (milliseconds = 3000) => {
+  wait = async (milliseconds = 2000) => {
     await this.sleep(milliseconds);
     this.setState({
       loading: false
@@ -22,13 +23,14 @@ class  App extends React.Component{
  
   // 4 sec for loading screen
   componentDidMount(){
-    this.wait(3000);
+    this.wait(2000);
   }
 
   render(){
       if (this.state.loading) return <Loader/>;
       return (
         <>
+          {/* <Music /> */}
           <BrowserRouter>
             <Route path='/' exact component={Home} />
             <Route path='/events' exact component={Events} />
