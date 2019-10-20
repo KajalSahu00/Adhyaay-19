@@ -1,11 +1,11 @@
 import React from 'react';
 import { TimelineMax } from 'gsap';
 
-import ad3 from '../images/ad3.svg';
-import ad4 from '../images/ad4.svg';
-import ad5 from '../images/ad5.svg';
-import ad6 from '../images/ad6.svg';
-import ad7 from '../images/ad7.svg';
+import ad3 from '../images/ado3.svg';
+import ad4 from '../images/ado4.svg';
+import ad5 from '../images/ado5.svg';
+import ad6 from '../images/ado6.svg';
+import ad7 from '../images/ado7.svg';
 
 //  loading screen LOGO
 class showLoader extends React.Component {
