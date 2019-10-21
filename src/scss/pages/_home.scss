@@ -73,10 +73,12 @@
         letter-spacing: 5px;
         text-shadow: 1px -1px 0 #919191, 2px -2px 0 #919191, 3px -3px 0 #919191, 4px -4px 0 #919191, 5px -5px 0 #919191;
         z-index: 20;
+        overflow: unset;
 
         &_letter{
             display: inline-block; 
             position: absolute;
+            overflow: unset;
 
             .main{
                 position: absolute;
@@ -204,15 +206,16 @@
         left: 0;
         width: 100%;
         height: 100px;
+        overflow: unset;
         
         &-one{
-            width: 700px;
+            width: 1000px;
             height: 200px;
             position: absolute;
-            left: -350px;
-            top: -10px;
+            left: -600px;
+            top: -80px;
             display: block;
-            background: #455f48;
+            background: #4d6450;
             border-radius: 80%;
             z-index: 10;
 
@@ -224,7 +227,7 @@
             top: -60px;
             display: block;
             border-radius: 50%;
-            width: 105%;
+            width: 115%;
             height: 450px;
             background-image: linear-gradient(to bottom,	#455f48 ,#263a29 90%);
             z-index: 11;
