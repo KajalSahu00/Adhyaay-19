@@ -1,6 +1,7 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import { Link } from 'react-router-dom';
+import MainLogo from './mainLogo';
 
 import About from './about';
 
@@ -20,7 +21,7 @@ const Home = (props) => {
                     </div>
                 </div>
                 <div className='particle-js-wrapper'>
-                    
+                <MainLogo />
                 <Particles
                     params={{
                         "particles": {
