@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 
 import About from './about';
 
+//images
+import lightRaysImage from '../images/lightRays.png'
+
 
 const Home = (props) => {
     return(
@@ -84,16 +87,38 @@ const Home = (props) => {
                     </ul>
                 </div>
                 <div className='section-main--title'>
-                    <span className='section-main--title_letter'>A</span>
-                    <span className='section-main--title_letter'>D</span>
-                    <span className='section-main--title_letter'>H</span>
-                    <span className='section-main--title_letter'>Y</span>
-                    <span className='section-main--title_letter'>A</span>
-                    <span className='section-main--title_letter'>A</span>
-                    <span className='section-main--title_letter'>Y'</span>
-                    <span className='section-main--title_letter'>1</span>
-                    <span className='section-main--title_letter'>9</span>
-                    <span className='section-main--title_letter-shadow'>A</span>
+                    <div className='section-main--title_letter'>
+                        <span className='main'>A</span>
+                        <span className='shadow'>A</span>
+                    </div>
+                    <div className='section-main--title_letter'>
+                        <span className='main'>D</span>
+                        <span className='shadow'>D</span>
+                    </div>
+                    <div className='section-main--title_letter'>
+                        <span className='main'>H</span>
+                        <span className='shadow'>H</span>
+                    </div>
+                    <div className='section-main--title_letter'>
+                        <span className='main'>Y</span>
+                        <span className='shadow'>Y</span>
+                    </div>
+                    <div className='section-main--title_letter'>
+                        <span className='main'>A</span>
+                        <span className='shadow'>A</span>
+                    </div>
+                    <div className='section-main--title_letter'>
+                        <span className='main'>A</span>
+                        <span className='shadow'>A</span>
+                    </div>
+                    <div className='section-main--title_letter'>
+                        <span className='main'>Y</span>
+                        <span className='shadow'>Y</span>
+                    </div>
+                    
+                </div>
+                <div className='rays-wrapper'>
+                    <img src={lightRaysImage} alt='emiting rays' />
                 </div>
                 <div className='mountains'>
                     <div className='mountains-one'></div>

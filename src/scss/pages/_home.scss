@@ -8,7 +8,7 @@
 .section-main{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to bottom right, rgb(43, 47, 119), rgb(7, 11, 52));
+    background: #17182f; //linear-gradient(to bottom right, rgb(43, 47, 119), rgb(7, 11, 52));
     overflow: hidden;
     position: relative;
 
@@ -64,84 +64,138 @@
     &--title{
         position: absolute;
         left:60%;
-        top: 70%;
+        top: 67%;
         width :70%;
         transform: translate(-50%, 0%);
         font-size: 100px;        
-        font-family: 'Squada One', cursive;
+        font-family: 'Bowlby One SC', cursive;
         color: white;
         letter-spacing: 5px;
-        text-shadow: 1px -1px 0 black, 2px -2px 0 black, 3px -3px 0 black, 4px -4px 0 black, 5px -5px 0 black;
+        text-shadow: 1px -1px 0 #919191, 2px -2px 0 #919191, 3px -3px 0 #919191, 4px -4px 0 #919191, 5px -5px 0 #919191;
         z-index: 20;
 
         &_letter{
-            display: inline-block;
-            animation: textBounce 5.4s linear infinite;
+            display: inline-block; 
             position: absolute;
+
+            .main{
+                position: absolute;
+                top: 0;
+                left: 0;
+                //animation: textBounce 7s linear infinite;
+            }
+
+            .shadow{
+                color: rgba(0, 0, 0, 0.281);
+                position: absolute;
+                text-shadow: none;
+                transform: rotateX(130deg) rotateZ(-10deg) scale(1, 1.2);
+                //animation: shadow-motion 7s linear infinite;
+                z-index: -1;
+                top: 60px;
+                left: -5px;
+
+            }
+                
 
             &:nth-child(1){
                 left: 0;
-                top: -15px;
+                top: 0px;
             }
 
             &:nth-child(2){
-                animation-delay: 0.6s;
-                left: 70px;
-                top: -19px;
+                left: 85px;
+                top: -2px;
+
+                .main{
+                    animation-delay: 1s;
+                }
+
+                .shadow{
+                    animation-delay: 1s;
+                }
                 
             }
 
             &:nth-child(3){
-                animation-delay: 1.2s;
-                left: 140px;
-                top: -22px;
+                left: 170px;
+                top:  -4px;
+
+                .main{
+                    animation-delay: 2s;
+                }
+
+                .shadow{
+                    animation-delay: 2s;
+                }
             }
             &:nth-child(4){
-                animation-delay: 1.8s;
-                left: 210px;
-                top: -25px;
+                left: 255px;
+                top: -6px;
+
+                .main{
+                    animation-delay: 3s;
+                }
+
+                .shadow{
+                    animation-delay: 3s;
+                }
             }
 
             &:nth-child(5){
-                animation-delay: 2.4s;
-                left: 280px;
-                top: -28px;
+                left: 330px;
+                top: -8px;
+
+                .main{
+                    animation-delay: 4s;
+                }
+
+                .shadow{
+                    animation-delay: 4s;
+                }
             }
 
             &:nth-child(6){
-                animation-delay: 3s;
-                left: 350px;
-                top: -25px;
+                left: 420px;
+                top: -10px;
+
+                .main{
+                    animation-delay: 5s;
+                }
+
+                .shadow{
+                    animation-delay: 5s;
+                }
             }
 
             &:nth-child(7){
-                animation-delay: 3.6s;
-                left: 420px;
-                top: -22px
-            }
+                left: 500px;
+                top: -12px;
 
-            &:nth-child(8){
-                animation-delay: 4.2s;
-                left: 530px;
-                top: -19px;
-            }
+                .main{
+                    animation-delay: 6s;
+                }
 
-            &:nth-child(9){
-                animation-delay: 4.8s;
-                left: 570px;
-                top: -15px;
-            }
-
-            &-shadow{
-                color: rgba(88, 88, 88, 0.589);
-                position: absolute;
-                text-shadow: none;
-                transform: rotate3d( 1, 0 , 10, 10deg);
-                // transform: rotateX(120deg);
-                // transform: rotateZ(10deg);
-                top: 30px;
+                .shadow{
+                    animation-delay: 6s;
+                }
             }
         }
+    }
+
+    .rays-wrapper{
+        position: absolute;
+        bottom: -80%;
+        left: 47%;
+        transform: translateX(-50%);
+        width: 70%;
+
+        img{
+            width: 100%;
+            animation: rays 55s linear infinite;
+            opacity: 0.5;
+        }
+        
     }
 
     .mountains{
@@ -158,7 +212,7 @@
             left: -350px;
             top: -10px;
             display: block;
-            background: #6f9973;
+            background: #455f48;
             border-radius: 80%;
             z-index: 10;
 
@@ -172,18 +226,18 @@
             border-radius: 50%;
             width: 105%;
             height: 450px;
-            background-image: linear-gradient(to bottom,	#6a8f6e ,#4a5f4d 90%);
+            background-image: linear-gradient(to bottom,	#455f48 ,#263a29 90%);
             z-index: 11;
         }
 
         &-three{
-            width: 30%;
+            width: 40%;
             height: 200px;
             position: absolute;
-            right: -50px;
-            top: -30px;
+            right: -200px;
+            top: -50px;
             display: block;
-            background: #6f9973;
+            background: #4c664f;
             border-radius: 80%;
             z-index: 10;
 
