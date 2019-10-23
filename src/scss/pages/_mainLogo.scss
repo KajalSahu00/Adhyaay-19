@@ -1,11 +1,19 @@
-.mainLogo{
-    position:absolute;
+.logo{
+    position: fixed;
     top: 40%;
     left: 55%;
     width: 40%;
     transform: translate(-50%, -50%);
     z-index: 12;
+    transition: 0.5s all linear;
+
+    &.aside{
+        top: 15%;
+        left: 23%;
+        width: 20%;
+    }
     img {
         width: 100%;
     }
 }
+

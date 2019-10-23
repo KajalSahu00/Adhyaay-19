@@ -121,6 +121,14 @@ const Home = (props) => {
                 <div className='rays-wrapper'>
                     <img src={lightRaysImage} alt='emiting rays' />
                 </div>
+                <div className='section-main--year'>
+                    <div className='section-main--year-letters'> 
+                        2K
+                    </div>
+                    <div className='section-main--year-letters'>
+                        19
+                    </div>
+                </div>
                 <div className='mountains'>
                     <div className='mountains-one'></div>
                     <div className='mountains-two'></div>

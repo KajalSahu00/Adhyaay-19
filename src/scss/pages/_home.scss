@@ -66,10 +66,12 @@
         left:60%;
         top: 67%;
         width :70%;
+        height: auto;
         transform: translate(-50%, 0%);
         font-size: 100px;        
         font-family: 'Bowlby One SC', cursive;
-        color: white;
+        background: linear-gradient(to right, red, green);
+        // background-clip: inherit;
         letter-spacing: 5px;
         text-shadow: 1px -1px 0 #919191, 2px -2px 0 #919191, 3px -3px 0 #919191, 4px -4px 0 #919191, 5px -5px 0 #919191;
         z-index: 20;
@@ -79,6 +81,7 @@
             display: inline-block; 
             position: absolute;
             overflow: unset;
+            height: auto;
 
             .main{
                 position: absolute;
@@ -198,6 +201,37 @@
             opacity: 0.5;
         }
         
+    }
+
+    &--year{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 80%;
+        height: auto;
+        z-index: 12;
+
+        &-letters{
+            position: absolute;
+            
+            font-size: 60px;
+            color: rgb(235, 193, 55);
+            text-shadow: 0px 1px 0 #919191, 0px 2px 0 #919191, 0px 3px 0 #919191, 0px 4px 0 #919191, 0px 5px 0 #919191, 0px 6px 0 #919191,0px 7px 0 #919191, 0px 8px 0 #919191, 0px 9px 0 #919191, 0px 10px 0 #919191;
+            transform: rotateX(-50deg);
+            animation: textBounce 3s ease-in-out infinite;
+            font-family: 'Bowlby One SC', cursive;
+
+            &:nth-child(1){
+                left: 30px;
+                top: -40px;
+            }
+
+            &:nth-child(2){
+                right: 20px;
+                top: -30px;
+                animation-delay: 4s;
+            }
+        }
     }
 
     .mountains{

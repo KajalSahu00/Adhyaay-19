@@ -135,7 +135,8 @@ const About = (props) => {
                 </div>
                 <div className='section-title'>
                     <span className='section-title--text'>
-                        ABOUT <br /> US
+                        <span className='section-title--text-primary'>About</span >
+                        <span className='section-title--text-secondary'>Us</span>
                     </span>
                 </div>
                 <div className='main-content'>
