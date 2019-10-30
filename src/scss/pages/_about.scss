@@ -289,33 +289,35 @@
         }
 
         .section-title{
-            width: 25%;
-            height: 300px;
+            font-size: 56px;
             position: absolute;
-            top: 0;
-            left: 100px;
-            background:  rgb(85, 0, 0);
+            top: 5%;
+            left: 12%;
+            color: white;
+            letter-spacing: 2px;
+            font-weight: 600;
+            // background:  rgb(85, 0, 0);
 
-            &--text{
-                color: white;
-                font-size: 70px;
-                font-weight: 600;
-                display: block;
-                position: absolute;
-                bottom: -50px;
-                left: 0;
-                text-align: left;
-                letter-spacing: 5px;
-                font-family: goodbrush;
-                line-height: 75px;
-                text-transform: lowercase;
+            // &--text{
+            //     color: white;
+            //     font-size: 70px;
+            //     font-weight: 600;
+            //     display: block;
+            //     position: absolute;
+            //     bottom: -50px;
+            //     left: 0;
+            //     text-align: left;
+            //     letter-spacing: 5px;
+            //     font-family: goodbrush;
+            //     line-height: 75px;
+            //     text-transform: lowercase;
 
-                &-primary{
-                    display: block;
-                    text-transform: lowercase;
+            //     &-primary{
+            //         display: block;
+            //         text-transform: lowercase;
 
-                }
-            }
+            //     }
+            // }
         }
 
         .main-content{
@@ -323,12 +325,12 @@
             height: auto;
             position: absolute;
             bottom: 20px;
-            right: 20px;
+            left: 20px;
             box-sizing: border-box;
             padding: 10px;
             color: white;
             font-size: 24px;
-            font-family: 'Zhi Mang Xing', cursive;
+            // font-family: 'Zhi Mang Xing', cursive;
         }
     }
 }

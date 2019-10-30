@@ -8,10 +8,17 @@
     transition: 0.5s all linear;
 
     &.aside{
-        top: 15%;
-        left: 23%;
-        width: 20%;
+        top: 13%;
+        left: 9%;
+        width: 15%;
     }
+
+    &.footer{
+        width: 25%;
+        top: 25%;
+        left: 20%;
+    }
+
     img {
         width: 100%;
     }

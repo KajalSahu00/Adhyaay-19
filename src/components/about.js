@@ -140,12 +140,15 @@ const About = (props) => {
                     </span>
                 </div>
                 <div className='main-content'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                The wise have spoken and the plethora of events have been set. 
+                We have fastened our seatbelts and advise the same as the launch is near. 
+                Let us take you on an astral journey of psychedelic bliss and glee. 
+                As Adhyaay19 unravels, its boarders will find exhilarating competition, entrancing talent, and gripping showbiz on their voyage. 
+                We’ll climb through stairway to heaven and chase down the highway to hell. 
+                We’ll witness the magic of Kavya Sandhya, mesmerising moments of celebrity night, and pulse synchronising EDM concert. 
+                Join us on our expedition and you might unfold the best moments of your college life. 
+                Get on board voyagers! 
+
                 </div>
             </div>
         </>

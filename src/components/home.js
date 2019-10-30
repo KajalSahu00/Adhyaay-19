@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 import MainLogo from './mainLogo';
 
 import About from './about';
+import Gallery from './gallery';
+import Navbar from './navbar';
+import Footer from './footer';
+
 
 //images
 import lightRaysImage from '../images/lightRays.png'
@@ -12,6 +16,7 @@ import lightRaysImage from '../images/lightRays.png'
 const Home = (props) => {
     return(
         <div className='body-wrapper'>
+            <Navbar />
             <div className='section-main'>
                 <div className='stars-wrapper'>
                     <div className='night'>
@@ -71,22 +76,7 @@ const Home = (props) => {
                 <div className='section-main--logo'>
 
                 </div>
-                <div className='section-main--nav laptop'>
-                    <ul>
-                        <Link to='/events' className='link'>
-                            <li>Events</li>
-                        </Link>
-                        <li>
-                            Sponsors
-                        </li>
-                        <li>
-                            Contact Us
-                        </li>
-                        <li>
-                            Login
-                        </li>
-                    </ul>
-                </div>
+               
                 <div className='section-main--title'>
                     <div className='section-main--title_letter'>
                         <span className='main'>A</span>
@@ -138,6 +128,12 @@ const Home = (props) => {
             </div>
             <div className='section-about'>
                 <About />
+            </div>
+            <div className='section-gallery'>
+                <Gallery />
+            </div>
+            <div className='section-footer'>
+                <Footer />
             </div>
         </div>
     );

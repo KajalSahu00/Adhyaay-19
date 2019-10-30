@@ -14,12 +14,20 @@ import MainLogo2 from '../images/mainLogo.svg';
     
     
     handleScroll = (event) => {
+        const pageHeight = window.innerHeight;
         let scrollTop = window.pageYOffset;
         if(scrollTop > 100){
             this.setState({
                 addClassName: 'logo aside'
             });
-        }else{
+        }
+        if(scrollTop >= 3*pageHeight){
+            console.log('true');
+            this.setState({
+                addClassName: 'logo footer'
+            });
+        }
+        if(scrollTop <= 100){
             this.setState({
                 addClassName: 'logo'
             });
