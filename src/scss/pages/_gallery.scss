@@ -4,7 +4,7 @@
     position: relative;
     display: block;
     overflow: hidden;
-    background: rgb(59, 17, 54);
+    background: linear-gradient(to bottom, #0D0630, #18314F);
 
     .section-heading{
         font-size: 56px;
@@ -14,6 +14,7 @@
         color: white;
         letter-spacing: 2px;
         font-weight: 600;
+		font-family: 'Righteous', cursive;
     }
 
     .gallery-wrapper{

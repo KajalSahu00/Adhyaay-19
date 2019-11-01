@@ -14,12 +14,12 @@ footer{
 	height: 100vh;
 }
 .footer-distributed{
-	background-color: #292c2f;
+    background: linear-gradient(to bottom, #0D0630, #18314F);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 16px 'Viga', sans-serif;
     z-index: 10;
 	padding: 55px 50px;
     /* margin-top: 80px; */
