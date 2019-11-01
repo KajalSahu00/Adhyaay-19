@@ -4,7 +4,7 @@
     height: 100vh;
     overflow: hidden;
     box-sizing: border-box;
-    background: #17182f;
+    background: linear-gradient(to bottom, #0D0630, #18314F);
     position: relative;
     display: block;
 
@@ -297,6 +297,7 @@
             letter-spacing: 2px;
             font-weight: 600;
             // background:  rgb(85, 0, 0);
+			font-family: 'Righteous', cursive;
 
             // &--text{
             //     color: white;
@@ -330,7 +331,7 @@
             padding: 10px;
             color: white;
             font-size: 24px;
-            // font-family: 'Zhi Mang Xing', cursive;
+            font-family: 'Kaushan Script', cursive;
         }
     }
 }
